@@ -3,7 +3,7 @@ from api import router
 from engine import load_conf
 from starlette.middleware.cors import CORSMiddleware
 from schemas.response import responder
-import traceback
+
 
 def create_app() -> FastAPI:
     """
