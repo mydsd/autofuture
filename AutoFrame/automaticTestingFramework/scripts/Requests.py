@@ -24,3 +24,5 @@ class HttpRquests(object):
         response_rst = requests.get(url, params=data, headers=headers)
         rst = json.loads(response_rst)
         return rst
+if __name__ == '__main__':
+    data = {}
