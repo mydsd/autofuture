@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutoFrame.iml" filepath="$PROJECT_DIR$/.idea/AutoFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../AutoFuture/.idea/AutoFuture.iml" filepath="$PROJECT_DIR$/../../../AutoFuture/.idea/AutoFuture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../HotWheel/.idea/HotWheel.iml" filepath="$PROJECT_DIR$/../../../HotWheel/.idea/HotWheel.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/TestApi/.idea/TestApi.iml" filepath="$USER_HOME$/PycharmProjects/TestApi/.idea/TestApi.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/cms_api/.idea/cms_api.iml" filepath="$USER_HOME$/PycharmProjects/cms_api/.idea/cms_api.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/dtk/.idea/dtk.iml" filepath="$USER_HOME$/PycharmProjects/dtk/.idea/dtk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../script/.idea/script.iml" filepath="$PROJECT_DIR$/../../../script/.idea/script.iml" />
     </modules>
   </component>
 </project>

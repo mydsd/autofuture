@@ -10,3 +10,25 @@
 2023-02-23 13:31:32,391 demo INFO =======开始执行 第4条用例 >>> test用例
 2023-02-23 13:31:32,394 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testBtestC'}, 'success': True}
 2023-02-23 13:31:32,400 demo INFO 【测试完成】》》》用例数：4, 通过：4 失败：0，错误：0
+2023-02-23 20:32:05,986 demo INFO 初始化数据准备测试环境
+2023-02-23 20:32:06,002 demo INFO =======开始执行 第1条用例 >>> 用例1
+2023-02-23 20:32:06,008 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectId': 123}, 'success': True}
+2023-02-23 20:32:06,009 demo INFO =======开始执行 第2条用例 >>> 用例2
+2023-02-23 20:32:06,012 demo INFO >>> step1: 用例1
+2023-02-23 20:32:06,034 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testB', 'projectId': 123, 'token': '4483defa6610b3166c6630ed38c271e6'}, 'success': True}
+2023-02-23 20:32:06,035 demo INFO =======开始执行 第3条用例 >>> test用例
+2023-02-23 20:32:06,037 demo INFO >>> step1: 用例2
+2023-02-23 20:32:06,055 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testBtestC'}, 'success': True}
+2023-02-23 20:32:06,062 demo INFO 【测试完成】》》》用例数：3, 通过：3 失败：0，错误：0
+2023-02-23 20:32:34,646 demo INFO 初始化数据准备测试环境
+2023-02-23 20:32:34,649 demo INFO =======开始执行 第1条用例 >>> 用例1
+2023-02-23 20:32:34,654 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectId': 123}, 'success': True}
+2023-02-23 20:32:34,655 demo INFO =======开始执行 第2条用例 >>> 用例2
+2023-02-23 20:32:34,657 demo INFO >>> step1: 用例1
+2023-02-23 20:32:34,673 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testB', 'projectId': 123, 'token': '4483defa6610b3166c6630ed38c271e6'}, 'success': True}
+2023-02-23 20:32:34,673 demo INFO =======开始执行 第3条用例 >>> 用例3
+2023-02-23 20:32:34,675 demo INFO >>> step1: 用例2
+2023-02-23 20:32:34,690 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testBtestC'}, 'success': True}
+2023-02-23 20:32:34,696 demo INFO =======开始执行 第4条用例 >>> test用例
+2023-02-23 20:32:34,701 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testBtestC'}, 'success': True}
+2023-02-23 20:32:34,707 demo INFO 【测试完成】》》》用例数：4, 通过：4 失败：0，错误：0

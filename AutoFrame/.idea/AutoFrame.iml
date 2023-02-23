@@ -4,5 +4,11 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="C:\Users\Administrator\AppData\Local\Programs\Python\Python311\python.exe" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="HotWheel" />
+    <orderEntry type="module" module-name="AutoFuture" />
+    <orderEntry type="module" module-name="script" />
+    <orderEntry type="module" module-name="dtk" />
+    <orderEntry type="module" module-name="cms_api" />
+    <orderEntry type="module" module-name="TestApi" />
   </component>
 </module>
