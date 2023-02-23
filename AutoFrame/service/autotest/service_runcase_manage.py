@@ -30,7 +30,7 @@ class CRUD():
             run = RunTest()
             envInfo = db.query(QcTestCase).filter(QcTestCase.id.in_(caseList)).all()
             result = run.run_cases(jsonable_encoder(envInfo),db,QcTestCase,envHost)
-            report = run.gen_report(projectName,start_time,duration)
+            #report = run.gen_report(projectName,start_time,duration)
             return result
         except Exception as e:
             logger.error(e)
