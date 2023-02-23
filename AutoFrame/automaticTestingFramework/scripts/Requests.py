@@ -24,10 +24,3 @@ class HttpRquests(object):
         response_rst = requests.get(url, params=data, headers=headers)
         rst = json.loads(response_rst)
         return rst
-
-if __name__ == "__main__":
-    url = 'http://test-his.seenew.info/app-sso/oauth/token'
-    data = {"grant_type":"password","username":"xtest01","password":"Admin@123.com","verify_code":"","sessionId":""}
-    req = HttpRquests()
-    rst = req.send_post(url, data)
-    print(rst.url)
