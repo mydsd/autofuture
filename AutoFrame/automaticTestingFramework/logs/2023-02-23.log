@@ -1,0 +1,12 @@
+2023-02-23 13:31:32,330 demo INFO 初始化数据准备测试环境
+2023-02-23 13:31:32,338 demo INFO =======开始执行 第1条用例 >>> 用例1
+2023-02-23 13:31:32,343 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectId': 123}, 'success': True}
+2023-02-23 13:31:32,343 demo INFO =======开始执行 第2条用例 >>> 用例2
+2023-02-23 13:31:32,347 demo INFO >>> step1: 用例1
+2023-02-23 13:31:32,365 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testB', 'projectId': 123, 'token': '4483defa6610b3166c6630ed38c271e6'}, 'success': True}
+2023-02-23 13:31:32,365 demo INFO =======开始执行 第3条用例 >>> 用例3
+2023-02-23 13:31:32,368 demo INFO >>> step1: 用例2
+2023-02-23 13:31:32,382 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testBtestC'}, 'success': True}
+2023-02-23 13:31:32,391 demo INFO =======开始执行 第4条用例 >>> test用例
+2023-02-23 13:31:32,394 demo INFO 实际结果返回：{'code': 2000, 'data': {'projectCode': 'testBtestC'}, 'success': True}
+2023-02-23 13:31:32,400 demo INFO 【测试完成】》》》用例数：4, 通过：4 失败：0，错误：0
