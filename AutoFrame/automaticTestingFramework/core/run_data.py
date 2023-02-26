@@ -21,7 +21,7 @@ class RunCaseData:
     """
 
     def __init__(self):
-        self.opera_excel = OperationExcel()
+        #self.opera_excel = OperationExcel()
         self.op_global_json = OperationJson(env_conf.GLOBAL_DATA_PATH)
         self.op_header_json = OperationJson(env_conf.HEADER_DATA_PATH)
         self.op_token_json = OperationJson(env_conf.Token_DATA_PATH)
@@ -160,13 +160,13 @@ class RunCaseData:
                 find_obj = find_path.FindPathByValue(request_data)
                 case_var_paths = find_obj.in_value_path(key)
                 # 执行依赖 获取 value的值 进行替换
-                var_in_saved = self.op_global_json.get_data(key)
-                if var_in_saved is not None:
-                    request_data = find_obj.update_data_by_path(case_var_paths, request_data, var_in_saved)
-                else:
-                    # 获取依赖的响应数据
-                    depend_value = self.get_depend_data_for_key(depend_case, value, case_id,db,dbname,envHost)
-                    request_data = find_obj.update_data_by_path(case_var_paths, request_data, depend_value)
-                    # 将依赖case的返回值 写入全局变量文件-global_vars.json
-                    self.op_global_json.write_to_global_vars(key=key, value=depend_value)
+                # var_in_saved = self.op_global_json.get_data(key)
+                # if var_in_saved is not None:
+                #     request_data = find_obj.update_data_by_path(case_var_paths, request_data, var_in_saved)
+                # else:
+                # 获取依赖的响应数据
+                depend_value = self.get_depend_data_for_key(depend_case, value, case_id,db,dbname,envHost)
+                request_data = find_obj.update_data_by_path(case_var_paths, request_data, depend_value)
+                # 将依赖case的返回值 写入全局变量文件-global_vars.json
+                self.op_global_json.write_to_global_vars(key=key, value=depend_value)
         return request_data

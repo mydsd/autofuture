@@ -8,7 +8,7 @@ BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEST_HOST = 'http://127.0.0.1:8081'
 
 # 测试数据路径
-CASE_DATA_PATH = os.path.join(BASE_PATH, 'data', 'test_cases.xlsx')
+#CASE_DATA_PATH = os.path.join(BASE_PATH, 'data', 'test_cases.xlsx')
 Token_DATA_PATH = os.path.join(BASE_PATH, 'data', 'token.json')
 GLOBAL_DATA_PATH = os.path.join(BASE_PATH, 'data', 'global_vars.json')
 HEADER_DATA_PATH = os.path.join(BASE_PATH, 'data', 'header.json')
