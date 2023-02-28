@@ -148,8 +148,8 @@ class Reporter(object):
         pie_image_name = email_img_path + self.report_prefix + '_errorTypes.png'
         bar_image_name = email_img_path + self.report_prefix + '_errorSites.png'
 
-        # 在线认证
-        chart_studio.tools.set_credentials_file(username='lijunxian', api_key='2NFfzX94kT8YvH6DEIxC')
+        # 在线认证   username='lijunxian', api_key='2NFfzX94kT8YvH6DEIxC'
+        chart_studio.tools.set_credentials_file(username='dushundong', api_key='0qcGMvctzulWscuhYUY8')
         # 使用plotly离线生成图表
         pyplt = py.offline.plot
         # 生成错误类型饼图

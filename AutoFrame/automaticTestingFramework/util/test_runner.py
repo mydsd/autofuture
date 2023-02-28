@@ -79,5 +79,6 @@ class RunTest:
         reporter = HtmlReporter(project=project, start=start, duration=duration, test_results=self.test_results)
         reporter.report()
 
-    def gen_mail_report(self, project, start, duration,test_results):
+    def gen_mail_report(self, project, start, duration):
         reporter = EmailReporter(project=project, start=start, duration=duration, test_results=self.test_results)
+        reporter.report()
